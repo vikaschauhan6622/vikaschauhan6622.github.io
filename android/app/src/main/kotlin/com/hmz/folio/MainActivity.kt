@@ -1,0 +1,6 @@
+package com.vikas.folio
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
