@@ -99,12 +99,14 @@ class _MaterialChildState extends State<MaterialChild> {
 // git switch gh-pages
 
 /// 🌟 Step 5: Clean Old Deployment
+//Delete all existing files from the gh-pages branch:
 // git rm -rf .
 // git commit -m "Remove old deployment files"
+//git push origin gh-pages --force
 
-/// 🌟 Step 6: Copy New Web Build Files
-// cp -r build/web/* .
-// rm -rf build  # Optional: Remove build folder after copying
+/// 🌟 Step 6: Switch Back to Main Development Branch
+// git checkout main  # or git checkout finalCode
+// git pull origin main  # or git pull origin finalCode
 
 /// 🌟 Step 7: Commit and Push to GitHub Pages
 // git add .
