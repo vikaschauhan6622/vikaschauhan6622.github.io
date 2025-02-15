@@ -81,6 +81,9 @@ class _MaterialChildState extends State<MaterialChild> {
 }
 
 //15-2-25
+//git checkout -b gh-pages
+// git push origin gh-pages
+
 ///🌟 Step 1: Switch to the finalCode Branch
 //git switch finalCode
 
