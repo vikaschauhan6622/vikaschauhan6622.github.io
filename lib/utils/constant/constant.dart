@@ -4,10 +4,9 @@ import 'package:folio/utils/constant/project_data.dart';
 import 'package:folio/utils/utils.dart';
 
 class Constant {
+
   ///HOME
   static const String welcome = "WELCOME TO MY PORTFOLIO! ";
-  static const String firstName = "Vikas";
-  static const String lastName = "Chauhan";
   static const String role1 = " Flutter Software Engineer";
   static const String role2 = " UI/UX Developer";
   static const String role3 = " AI Enthusiast";
@@ -19,6 +18,8 @@ class Constant {
   static const String knowMe = 'Get to know me :)';
   static const String whoAmI = "Who am I?";
   static const String technologies = 'Technologies I have worked with:';
+  static const String firstName = "Vikas";
+  static const String lastName = "Chauhan";
   static const String name = "Name";
   static const String fullName = "Vikas Chauhan";
   static const String age = "Age";
@@ -26,6 +27,10 @@ class Constant {
   static const String email2 = "Email";
   static const String from = "From";
   static const String city = "Ahmedabad, IN";
+  static const String linkedinURL = "https://linkedin.com/in/chauhan-vikaskumar-ashokbhai-324692316";
+  static const String githubURL = "https://github.com/vikaschauhan6622";
+  static const String instagramURL = "https://instagram.com/thebooktechie";
+
 
   ///Service
   static const String whatDo = "What I can do?";
@@ -43,7 +48,6 @@ class Constant {
   ///Footer
   static const String developed = "Developed in 💙 with";
   static const String flutter = "Flutter";
-  static const String githubURL = "https://github.com/mhmzdev/DevFolio";
 
   ///Common
   static const String darkMode = "Dark Mode";
@@ -192,22 +196,10 @@ class Constant {
     "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
   ];
 
-  ///WorkUtils
-  static const List<String> logos = [
-    StaticUtils.university,
-    StaticUtils.fullterIsb,
-    StaticUtils.dsc,
-    StaticUtils.sastaticket,
-  ];
 
-  static const List<String> communityLinks = [
-    "https://www.comsats.edu.pk/",
-    "https://web.facebook.com/FlutterIslamabadPakistan/",
-    "https://dsc.community.dev/comsats-university-islamabad/",
-    "https://sastaticket.pk/"
-  ];
 
-  static const List<double> communityLogoHeight = [60.0, 70.0, 30.0, 70.0];
+
+
 
 
 

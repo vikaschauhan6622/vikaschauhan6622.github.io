@@ -80,7 +80,46 @@ class _MaterialChildState extends State<MaterialChild> {
   }
 }
 
-///10-2-25
+///15-2-25
+//🌟 Step 1: Switch to the finalCode Branch
+//git switch finalCode
+
+// 🌟 Step 2: Make Changes and Push to finalCode
+// git add .
+// git commit -m "Updated code in finalCode branch"
+// git push origin finalCode
+
+// 🌟 Step 3: Build the Flutter Web App
+// flutter build web --base-href="/"
+
+// 🌟 Step 4: Switch to gh-pages for Deployment
+// git switch gh-pages
+// git add .
+// git commit -m "Save changes before switching to gh-pages"
+// git switch gh-pages
+
+// 🌟 Step 5: Clean Old Deployment
+// git rm -rf .
+// git commit -m "Remove old deployment files"
+
+// 🌟 Step 6: Copy New Web Build Files
+// cp -r build/web/* .
+// rm -rf build  # Optional: Remove build folder after copying
+
+// 🌟 Step 7: Commit and Push to GitHub Pages
+// git add .
+// git commit -m "Deploy new build from finalCode"
+// git push origin gh-pages --force
+
+///Regular Working commands
+//flutter build web --base-href="/"
+//git add .
+//git commit -m "15.2_FEB_2025 == Deploy new build from gh-pages"
+//git push origin gh-pages --force
+
+
+
+
 
 
 

@@ -79,7 +79,7 @@ class Body extends StatelessWidget {
     const Services(),
     const Portfolio(),
     const Contact(),
-    // const Footer(),
+    /// const Footer(),
      AnimatedFooter(),
   ];
 
