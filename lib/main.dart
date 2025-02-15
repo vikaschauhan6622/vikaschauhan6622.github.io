@@ -80,44 +80,33 @@ class _MaterialChildState extends State<MaterialChild> {
   }
 }
 
-//15-2-25
-///🌟 Step 1: Switch to the finalCode Branch
+/// switch branch
 //git switch finalCode
+// git switch gh-pages
 
-/// 🌟 Step 2: Make Changes and Push to finalCode
-// git add .
-// git commit -m "Updated code in finalCode branch"
-// git push origin finalCode
+
+///🌟 Step 1: Remove the Existing Build from GitHub Pages
+//git checkout gh-pages
+//Delete all existing files from the gh-pages branch:   git rm -rf .
+// git commit -m "Remove old web build"
+// git push origin gh-pages --force
+
+/// 🌟 Step 2: Switch Back to Main Development Branch
+// git checkout main  # or git checkout finalCode
+// git pull origin main  # or git pull origin finalCode
 
 /// 🌟 Step 3: Build the Flutter Web App
 // flutter build web --base-href="/"
 
 /// 🌟 Step 4: Switch to gh-pages for Deployment
+//Copy-Item -Recurse -Force build/web/* .      for macOS = cp -r build/web/* .
 // git switch gh-pages
 // git add .
-// git commit -m "Save changes before switching to gh-pages"
-// git switch gh-pages
-
-/// 🌟 Step 5: Clean Old Deployment
-//Delete all existing files from the gh-pages branch:
-// git rm -rf .
-// git commit -m "Remove old deployment files"
-//git push origin gh-pages --force
-
-/// 🌟 Step 6: Switch Back to Main Development Branch
-// git checkout main  # or git checkout finalCode
-// git pull origin main  # or git pull origin finalCode
-
-/// 🌟 Step 7: Commit and Push to GitHub Pages
-// git add .
-// git commit -m "Deploy new build from finalCode"
+// git commit -m "Deploy new Flutter web build"
 // git push origin gh-pages --force
 
-///Regular Working commands
-//flutter build web --base-href="/"
-//git add .
-//git commit -m "15.2_FEB_2025 == Deploy new build from gh-pages"
-//git push origin gh-pages --force
+
+
 
 
 
